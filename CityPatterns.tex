@@ -8,6 +8,10 @@
 \usepackage{xspace}
 \usepackage{lastpage}
 
+\makeatletter
+\newcommand*{\rom}[1]{\expandafter\@slowromancap\romannumeral #1@\xspace}
+\makeatother
+
 \newcommand{\myhref}[2]{{\href{#1}{\textcolor{blue}{#2}}}}
 \fancyhead[L]{\thetitle}
 \fancyhead[R]{\it\thepage\ of \pageref{LastPage}}
@@ -42,7 +46,7 @@ pdflang={en}
 %% Title page
 
 %% Page 1: Map of the city in IXX century
-\section{Map of \mycity in IXX century}
+\section{Map of \mycity in \rom{19} century}
 %% Change scale size to suit your needs
 \includegraphics[keepaspectratio,width=\textwidth]{map1}
 
@@ -51,7 +55,7 @@ Comments about the map.
 \newpage
 
 %% Page 2: Map of the city in the mid-20th century,
-\section{Map of \mycity in the mid-XX century}
+\section{Map of \mycity in the mid-\rom{20} century}
 %% Change scale size to suit your needs
 \includegraphics[keepaspectratio,width=\textwidth]{map2}
 

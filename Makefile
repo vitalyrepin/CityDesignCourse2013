@@ -4,7 +4,7 @@ DVIPS = dvips
 MAIN_FNAME=CityPatterns
 # Additional files the main input file depends on
 ADDDEPS=
-IMAGES = photo1.png photo2.png photo3.png map1.png map2.png map3.png
+IMAGES = traditional.jpg modern.jpg green.jpg map1.jpg map2.jpg map3.jpg
 
 RERUNBIB = "No file.*\.bbl|Citation.*undefined"
 

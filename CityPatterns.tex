@@ -34,7 +34,7 @@ pdflang={en}
 }
 
 %% City name
-\newcommand{\mycity}{Andermatt\xspace}
+\newcommand{\mycity}{Espoo\xspace}
 %% Author
 \author{Vitaly Repin}
 %% Title
@@ -49,8 +49,7 @@ pdflang={en}
 \section{Map of \mycity in \rom{19} century}
 %% Change scale size to suit your needs
 \includegraphics[keepaspectratio,width=\textwidth]{map1}
-
-Comments about the map.
+\centerline{Map of Espoo (Espoon keskus (city center) and Kauklahti areas) in 1855~\cite{espoo1855}.}
 
 \newpage
 
@@ -58,26 +57,30 @@ Comments about the map.
 \section{Map of \mycity in the mid-\rom{20} century}
 %% Change scale size to suit your needs
 \includegraphics[keepaspectratio,width=\textwidth]{map2}
+\centerline{Map of Espoo (Espoon keskus (city center) and Kauklahti areas) in 1945~\cite{espoo1945}.}
 
-Comments about the map.
 
 \newpage
 
 %% Page 3: Map of the city today (screenshot from http://www.openstreetmap.org/
 \section{Map of \mycity in the year of 2013}
 %% Change scale size to suit your needs
-\includegraphics[keepaspectratio,width=\textwidth]{map2}
-
-Comments about the map.
+\includegraphics[keepaspectratio,width=\textwidth]{map3}
+\centerline{Map of Espoo (Espoon keskus (city center) and Kauklahti areas) in 2013~\cite{espoo2013}.}
 
 \newpage
 
 %% Page 4: Photographs
 \section{Photographs of \mycity}
 \begin{tabular}{lp{.4\textwidth}}
-\includegraphics[keepaspectratio,width=.5\textwidth]{photo1} & Comments about photo1\\[.2cm]
-\includegraphics[keepaspectratio,width=.5\textwidth]{photo2} & Comments about photo2\\[.2cm]
-\includegraphics[keepaspectratio,width=.5\textwidth]{photo3} & Comments about photo3\\
+\includegraphics[keepaspectratio,width=.5\textwidth]{traditional} & Comments about photo1\\[.2cm]
+\includegraphics[keepaspectratio,width=.5\textwidth]{modern} & Comments about photo2\\[.2cm]
+\includegraphics[keepaspectratio,width=.5\textwidth]{green} & Comments about photo3\\
 \end{tabular}
 
+\begin{thebibliography}{9}
+\bibitem{espoo1855} \myhref{http://www.vanhakartta.fi/historialliset-kartat/kaupunkikartat/sekalaiset-kaupunkikartat/@@mapview?handle=hdl_123456789_6888}{Kalmbergin kartasto R VII : List 7. 1855.}
+\bibitem{espoo1945} \myhref{http://koti.kapsi.fi/timomeriluoto/KARTAT/Topografiset\%20kartat/Topografinen\%20kartta\%201:20.000\%20Espoo\%201945.jpg}{Topografinen kartta 1:20.000 Espoo 1945.}
+\bibitem{espoo2013} \myhref{http://www.openstreetmap.org/\#map=14/60.2034/24.6415}{OpenStreetMap. Espoo. 2013}
+\end{thebibliography}
 \end{document}

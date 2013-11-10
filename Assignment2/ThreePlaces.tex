@@ -1,0 +1,45 @@
+\documentclass[a4paper]{article}
+\usepackage{hyperxmp}
+\usepackage{titling}
+\usepackage[colorlinks,linkcolor=blue]{hyperref}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{a4wide}
+\usepackage{xspace}
+\usepackage{lastpage}
+\usepackage{ccicons}
+
+\newcommand{\myhref}[2]{{\href{#1}{\textcolor{blue}{#2}}}}
+
+\fancyhead[L]{\thetitle}
+\fancyhead[R]{\it\thepage\ of \pageref{LastPage}}
+\fancyfoot[C]{\centerline{\small \ccbysa\ \theauthor, 2013. This work is licensed under a \myhref{http://creativecommons.org/licenses/by-sa/3.0/}{Creative Commons Attribution-ShareAlike 3.0 Unported License.}}}
+\pagestyle{fancy}
+
+%% PDF meta-data
+\hypersetup{%
+pdftitle={Assigment 2 for the course on city design. Three Special Places.}
+pdfauthor={Vitaly Repin},
+pdfcopyright={This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License},
+pdfsubject={Designing City},
+pdfkeywords={design,city,map,places},
+pdflicenseurl={http://creativecommons.org/licenses/by-sa/3.0/},
+pdfcaptionwriter={Vitaly Repin},
+pdfcontactcity={Espoo},
+pdfcontactcountry={Finland},
+pdfcontactemail={vitaly.repin@gmail.com},
+pdflang={en}
+}
+
+%% City name
+\newcommand{\mycity}{St. Petersburg, Russia\xspace}
+%% Author
+\author{Vitaly Repin}
+%% Title
+\title{Three Special Places: \emph{\mycity}}
+
+\date{November, 2013}
+
+\begin{document}
+1
+\end{document}

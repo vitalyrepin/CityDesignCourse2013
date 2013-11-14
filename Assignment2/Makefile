@@ -4,7 +4,7 @@ DVIPS = dvips
 MAIN_FNAME=ThreePlaces
 # Additional files the main input file depends on
 ADDDEPS=
-IMAGES =
+IMAGES = Rossi1.jpg Rossi2.jpg artsqplan.png paul.jpg paul2.jpg opera.jpg planpetr.jpg pushkin.jpg rossiplan.png 
 
 RERUNBIB = "No file.*\.bbl|Citation.*undefined"
 
